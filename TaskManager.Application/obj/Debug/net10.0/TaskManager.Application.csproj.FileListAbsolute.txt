@@ -1,0 +1,15 @@
+/home/hanich/TaskManager/TaskManager.Application/bin/Debug/net10.0/TaskManager.Application.deps.json
+/home/hanich/TaskManager/TaskManager.Application/bin/Debug/net10.0/TaskManager.Application.dll
+/home/hanich/TaskManager/TaskManager.Application/bin/Debug/net10.0/TaskManager.Application.pdb
+/home/hanich/TaskManager/TaskManager.Application/bin/Debug/net10.0/TaskManager.Domain.dll
+/home/hanich/TaskManager/TaskManager.Application/bin/Debug/net10.0/TaskManager.Domain.pdb
+/home/hanich/TaskManager/TaskManager.Application/obj/Debug/net10.0/TaskManager.Application.csproj.AssemblyReference.cache
+/home/hanich/TaskManager/TaskManager.Application/obj/Debug/net10.0/TaskManager.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/hanich/TaskManager/TaskManager.Application/obj/Debug/net10.0/TaskManager.Application.AssemblyInfoInputs.cache
+/home/hanich/TaskManager/TaskManager.Application/obj/Debug/net10.0/TaskManager.Application.AssemblyInfo.cs
+/home/hanich/TaskManager/TaskManager.Application/obj/Debug/net10.0/TaskManager.Application.csproj.CoreCompileInputs.cache
+/home/hanich/TaskManager/TaskManager.Application/obj/Debug/net10.0/TaskMana.898BD9DB.Up2Date
+/home/hanich/TaskManager/TaskManager.Application/obj/Debug/net10.0/TaskManager.Application.dll
+/home/hanich/TaskManager/TaskManager.Application/obj/Debug/net10.0/refint/TaskManager.Application.dll
+/home/hanich/TaskManager/TaskManager.Application/obj/Debug/net10.0/TaskManager.Application.pdb
+/home/hanich/TaskManager/TaskManager.Application/obj/Debug/net10.0/ref/TaskManager.Application.dll

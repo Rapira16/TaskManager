@@ -1,0 +1,30 @@
+[2026-01-17 11:12:23.692 +03:00 INF] Запуск приложения TaskManager {"Application":"TaskManager","Environment":"Development"}
+[2026-01-17 11:12:23.797 +03:00 FTL] Приложение не удалось запустить {"Application":"TaskManager","Environment":"Development"}
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in /home/hanich/TaskManager/TaskManager.API/Program.cs:line 208
+[2026-01-17 11:13:07.345 +03:00 INF] Запуск приложения TaskManager {"Application":"TaskManager","Environment":"Development"}
+[2026-01-17 11:13:07.437 +03:00 FTL] Приложение не удалось запустить {"Application":"TaskManager","Environment":"Development"}
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in /home/hanich/TaskManager/TaskManager.API/Program.cs:line 208
+[2026-01-17 11:13:30.487 +03:00 INF] Запуск приложения TaskManager {"Application":"TaskManager","Environment":"Development"}
+[2026-01-17 11:13:30.575 +03:00 FTL] Приложение не удалось запустить {"Application":"TaskManager","Environment":"Development"}
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in /home/hanich/TaskManager/TaskManager.API/Program.cs:line 208

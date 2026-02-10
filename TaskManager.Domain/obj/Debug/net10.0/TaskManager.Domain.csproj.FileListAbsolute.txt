@@ -1,0 +1,11 @@
+/home/hanich/TaskManager/TaskManager.Domain/bin/Debug/net10.0/TaskManager.Domain.deps.json
+/home/hanich/TaskManager/TaskManager.Domain/bin/Debug/net10.0/TaskManager.Domain.dll
+/home/hanich/TaskManager/TaskManager.Domain/bin/Debug/net10.0/TaskManager.Domain.pdb
+/home/hanich/TaskManager/TaskManager.Domain/obj/Debug/net10.0/TaskManager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/hanich/TaskManager/TaskManager.Domain/obj/Debug/net10.0/TaskManager.Domain.AssemblyInfoInputs.cache
+/home/hanich/TaskManager/TaskManager.Domain/obj/Debug/net10.0/TaskManager.Domain.AssemblyInfo.cs
+/home/hanich/TaskManager/TaskManager.Domain/obj/Debug/net10.0/TaskManager.Domain.csproj.CoreCompileInputs.cache
+/home/hanich/TaskManager/TaskManager.Domain/obj/Debug/net10.0/TaskManager.Domain.dll
+/home/hanich/TaskManager/TaskManager.Domain/obj/Debug/net10.0/refint/TaskManager.Domain.dll
+/home/hanich/TaskManager/TaskManager.Domain/obj/Debug/net10.0/TaskManager.Domain.pdb
+/home/hanich/TaskManager/TaskManager.Domain/obj/Debug/net10.0/ref/TaskManager.Domain.dll
