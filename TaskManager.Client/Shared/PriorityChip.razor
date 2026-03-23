@@ -1,0 +1,28 @@
+﻿@using MudBlazor
+
+<MudChip T="string" Size="Size.Small" Style="@GetStyle()">
+    @GetIcon() @PriorityName
+</MudChip>
+
+@code {
+    [Parameter] public int Priority { get; set; }
+    [Parameter] public string PriorityName { get; set; } = string.Empty;
+
+    private string GetStyle() => Priority switch
+    {
+        0 => "background-color: #f1f8e9; color: #558b2f;",   // Low
+        1 => "background-color: #fff8e1; color: #f57f17;",   // Medium
+        2 => "background-color: #fce4ec; color: #c62828;",   // High
+        3 => "background-color: #b71c1c; color: white;",     // Critical
+        _ => ""
+    };
+
+    private string GetIcon() => Priority switch
+    {
+        0 => "↓",
+        1 => "→",
+        2 => "↑",
+        3 => "⚡",
+        _ => ""
+    };
+}

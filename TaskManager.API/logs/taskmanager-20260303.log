@@ -1,0 +1,565 @@
+[2026-03-03 08:45:10.006 +03:00 INF] Запуск приложения TaskManager {"Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:45:10.901 +03:00 INF] Приложение успешно запущено {"Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:45:10.972 +03:00 INF] User profile is available. Using 'C:\Users\dmitr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. {"EventId":{"Id":63,"Name":"UsingProfileAsKeyRepositoryWithDPAPI"},"SourceContext":"Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:45:11.550 +03:00 INF] Now listening on: https://localhost:7299 {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:45:11.558 +03:00 INF] Now listening on: http://localhost:5071 {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:45:11.632 +03:00 INF] Application started. Press Ctrl+C to shut down. {"SourceContext":"Microsoft.Hosting.Lifetime","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:45:11.638 +03:00 INF] Hosting environment: Development {"SourceContext":"Microsoft.Hosting.Lifetime","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:45:11.643 +03:00 INF] Content root path: D:\Менеджер задач\TaskManager.API {"SourceContext":"Microsoft.Hosting.Lifetime","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:45:34.298 +03:00 INF] Request starting HTTP/1.1 GET http://localhost:5071/ - null null {"EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT0BBL9LN:00000001","RequestPath":"/","ConnectionId":"0HNJOT0BBL9LN","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:45:34.512 +03:00 INF] HTTP GET / responded 307 in 2.1439 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJOT0BBL9LN:00000001","ConnectionId":"0HNJOT0BBL9LN","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:45:34.525 +03:00 INF] Request finished HTTP/1.1 GET http://localhost:5071/ - 307 0 null 239.0919ms {"EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT0BBL9LN:00000001","RequestPath":"/","ConnectionId":"0HNJOT0BBL9LN","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:45:34.630 +03:00 INF] Request starting HTTP/2 GET https://localhost:7299/ - null null {"EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT0BBL9LQ:00000001","RequestPath":"/","ConnectionId":"0HNJOT0BBL9LQ","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:45:34.730 +03:00 INF] HTTP GET / responded 404 in 84.9651 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJOT0BBL9LQ:00000001","ConnectionId":"0HNJOT0BBL9LQ","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:45:34.740 +03:00 INF] Request finished HTTP/2 GET https://localhost:7299/ - 404 0 null 109.9589ms {"EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT0BBL9LQ:00000001","RequestPath":"/","ConnectionId":"0HNJOT0BBL9LQ","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:45:34.755 +03:00 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7299/, Response status code: 404 {"EventId":{"Id":16},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT0BBL9LQ:00000001","RequestPath":"/","ConnectionId":"0HNJOT0BBL9LQ","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:47:05.019 +03:00 INF] Request starting HTTP/1.1 GET http://localhost:5071/health - null null {"EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT0BBL9LN:00000002","RequestPath":"/health","ConnectionId":"0HNJOT0BBL9LN","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:47:05.053 +03:00 INF] HTTP GET /health responded 307 in 0.2345 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJOT0BBL9LN:00000002","ConnectionId":"0HNJOT0BBL9LN","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:47:05.078 +03:00 INF] Request finished HTTP/1.1 GET http://localhost:5071/health - 307 0 null 59.9409ms {"EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT0BBL9LN:00000002","RequestPath":"/health","ConnectionId":"0HNJOT0BBL9LN","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:47:05.088 +03:00 INF] Request starting HTTP/2 GET https://localhost:7299/health - null null {"EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT0BBL9LQ:00000003","RequestPath":"/health","ConnectionId":"0HNJOT0BBL9LQ","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:47:05.123 +03:00 INF] Executing endpoint 'Health checks' {"EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT0BBL9LQ:00000003","RequestPath":"/health","ConnectionId":"0HNJOT0BBL9LQ","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:47:05.393 +03:00 ERR] Health check postgresql with status "Unhealthy" completed after 247.4113ms with message '28P01: password authentication failed for user "postgres"' {"EventId":{"Id":103,"Name":"HealthCheckEnd"},"SourceContext":"Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService","RequestId":"0HNJOT0BBL9LQ:00000003","RequestPath":"/health","ConnectionId":"0HNJOT0BBL9LQ","Application":"TaskManager","Environment":"Development"}
+Npgsql.PostgresException (0x80004005): 28P01: password authentication failed for user "postgres"
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 31
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 37
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: password authentication failed for user "postgres"
+    File: auth.c
+    Line: 331
+    Routine: auth_failed
+[2026-03-03 08:47:05.512 +03:00 INF] Executed endpoint 'Health checks' {"EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT0BBL9LQ:00000003","RequestPath":"/health","ConnectionId":"0HNJOT0BBL9LQ","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:47:05.528 +03:00 ERR] HTTP GET /health responded 503 in 408.3090 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJOT0BBL9LQ:00000003","ConnectionId":"0HNJOT0BBL9LQ","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:47:05.541 +03:00 INF] Request finished HTTP/2 GET https://localhost:7299/health - 503 null application/json; charset=utf-8 453.54ms {"EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT0BBL9LQ:00000003","RequestPath":"/health","ConnectionId":"0HNJOT0BBL9LQ","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:47:05.824 +03:00 INF] Request starting HTTP/2 GET https://localhost:7299/favicon.ico - null null {"EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT0BBL9LQ:00000005","RequestPath":"/favicon.ico","ConnectionId":"0HNJOT0BBL9LQ","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:47:05.843 +03:00 INF] HTTP GET /favicon.ico responded 404 in 4.3932 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJOT0BBL9LQ:00000005","ConnectionId":"0HNJOT0BBL9LQ","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:47:05.852 +03:00 INF] Request finished HTTP/2 GET https://localhost:7299/favicon.ico - 404 0 null 27.7105ms {"EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT0BBL9LQ:00000005","RequestPath":"/favicon.ico","ConnectionId":"0HNJOT0BBL9LQ","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:47:05.866 +03:00 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7299/favicon.ico, Response status code: 404 {"EventId":{"Id":16},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT0BBL9LQ:00000005","RequestPath":"/favicon.ico","ConnectionId":"0HNJOT0BBL9LQ","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:48:47.947 +03:00 INF] Request starting HTTP/1.1 GET http://localhost:5071/health - null null {"EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT0BBL9LN:00000003","RequestPath":"/health","ConnectionId":"0HNJOT0BBL9LN","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:48:47.969 +03:00 INF] HTTP GET /health responded 307 in 0.0491 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJOT0BBL9LN:00000003","ConnectionId":"0HNJOT0BBL9LN","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:48:47.978 +03:00 INF] Request finished HTTP/1.1 GET http://localhost:5071/health - 307 0 null 31.0186ms {"EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT0BBL9LN:00000003","RequestPath":"/health","ConnectionId":"0HNJOT0BBL9LN","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:48:47.990 +03:00 INF] Request starting HTTP/2 GET https://localhost:7299/health - null null {"EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT0BBL9LQ:00000007","RequestPath":"/health","ConnectionId":"0HNJOT0BBL9LQ","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:48:48.020 +03:00 INF] Executing endpoint 'Health checks' {"EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT0BBL9LQ:00000007","RequestPath":"/health","ConnectionId":"0HNJOT0BBL9LQ","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:48:48.069 +03:00 ERR] Health check postgresql with status "Unhealthy" completed after 39.6449ms with message '28P01: password authentication failed for user "postgres"' {"EventId":{"Id":103,"Name":"HealthCheckEnd"},"SourceContext":"Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService","RequestId":"0HNJOT0BBL9LQ:00000007","RequestPath":"/health","ConnectionId":"0HNJOT0BBL9LQ","Application":"TaskManager","Environment":"Development"}
+Npgsql.PostgresException (0x80004005): 28P01: password authentication failed for user "postgres"
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 31
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 37
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: password authentication failed for user "postgres"
+    File: auth.c
+    Line: 331
+    Routine: auth_failed
+[2026-03-03 08:48:48.094 +03:00 INF] Executed endpoint 'Health checks' {"EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT0BBL9LQ:00000007","RequestPath":"/health","ConnectionId":"0HNJOT0BBL9LQ","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:48:48.108 +03:00 ERR] HTTP GET /health responded 503 in 89.4083 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJOT0BBL9LQ:00000007","ConnectionId":"0HNJOT0BBL9LQ","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:48:48.118 +03:00 INF] Request finished HTTP/2 GET https://localhost:7299/health - 503 null application/json; charset=utf-8 128.0549ms {"EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT0BBL9LQ:00000007","RequestPath":"/health","ConnectionId":"0HNJOT0BBL9LQ","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:49:24.078 +03:00 INF] Запуск приложения TaskManager {"Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:49:24.626 +03:00 INF] Приложение успешно запущено {"Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:49:24.685 +03:00 INF] User profile is available. Using 'C:\Users\dmitr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. {"EventId":{"Id":63,"Name":"UsingProfileAsKeyRepositoryWithDPAPI"},"SourceContext":"Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:49:25.089 +03:00 INF] Now listening on: http://localhost:5071 {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:49:25.173 +03:00 INF] Application started. Press Ctrl+C to shut down. {"SourceContext":"Microsoft.Hosting.Lifetime","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:49:25.180 +03:00 INF] Hosting environment: Development {"SourceContext":"Microsoft.Hosting.Lifetime","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:49:25.186 +03:00 INF] Content root path: D:\Менеджер задач\TaskManager.API {"SourceContext":"Microsoft.Hosting.Lifetime","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:49:45.567 +03:00 INF] Request starting HTTP/1.1 GET http://localhost:5071/health - null null {"EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T03:00000001","RequestPath":"/health","ConnectionId":"0HNJOT2M85T03","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:49:45.747 +03:00 WRN] Failed to determine the https port for redirect. {"EventId":{"Id":3,"Name":"FailedToDeterminePort"},"SourceContext":"Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware","RequestId":"0HNJOT2M85T03:00000001","RequestPath":"/health","ConnectionId":"0HNJOT2M85T03","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:49:45.850 +03:00 INF] Executing endpoint 'Health checks' {"EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T03:00000001","RequestPath":"/health","ConnectionId":"0HNJOT2M85T03","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:49:46.095 +03:00 ERR] Health check postgresql with status "Unhealthy" completed after 224.8451ms with message '28P01: password authentication failed for user "postgres"' {"EventId":{"Id":103,"Name":"HealthCheckEnd"},"SourceContext":"Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService","RequestId":"0HNJOT2M85T03:00000001","RequestPath":"/health","ConnectionId":"0HNJOT2M85T03","Application":"TaskManager","Environment":"Development"}
+Npgsql.PostgresException (0x80004005): 28P01: password authentication failed for user "postgres"
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 31
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 37
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: password authentication failed for user "postgres"
+    File: auth.c
+    Line: 331
+    Routine: auth_failed
+[2026-03-03 08:49:46.205 +03:00 INF] Executed endpoint 'Health checks' {"EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T03:00000001","RequestPath":"/health","ConnectionId":"0HNJOT2M85T03","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:49:46.218 +03:00 INF] Request starting HTTP/1.1 GET http://localhost:5071/health - null null {"EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:00000001","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:49:46.229 +03:00 ERR] HTTP GET /health responded 503 in 483.3448 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJOT2M85T03:00000001","ConnectionId":"0HNJOT2M85T03","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:49:46.252 +03:00 INF] Executing endpoint 'Health checks' {"EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T04:00000001","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:49:46.262 +03:00 INF] Request finished HTTP/1.1 GET http://localhost:5071/health - 503 null application/json; charset=utf-8 703.3274ms {"EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T03:00000001","RequestPath":"/health","ConnectionId":"0HNJOT2M85T03","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:49:46.310 +03:00 ERR] Health check postgresql with status "Unhealthy" completed after 36.2057ms with message '28P01: password authentication failed for user "postgres"' {"EventId":{"Id":103,"Name":"HealthCheckEnd"},"SourceContext":"Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService","RequestId":"0HNJOT2M85T04:00000001","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+Npgsql.PostgresException (0x80004005): 28P01: password authentication failed for user "postgres"
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 31
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 37
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: password authentication failed for user "postgres"
+    File: auth.c
+    Line: 331
+    Routine: auth_failed
+[2026-03-03 08:49:46.339 +03:00 INF] Executed endpoint 'Health checks' {"EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T04:00000001","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:49:46.354 +03:00 ERR] HTTP GET /health responded 503 in 109.0211 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJOT2M85T04:00000001","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:49:46.364 +03:00 INF] Request finished HTTP/1.1 GET http://localhost:5071/health - 503 null application/json; charset=utf-8 147.1719ms {"EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:00000001","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:49:46.476 +03:00 INF] Request starting HTTP/1.1 GET http://localhost:5071/favicon.ico - null null {"EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:00000002","RequestPath":"/favicon.ico","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:49:46.497 +03:00 INF] HTTP GET /favicon.ico responded 404 in 3.6803 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJOT2M85T04:00000002","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:49:46.507 +03:00 INF] Request finished HTTP/1.1 GET http://localhost:5071/favicon.ico - 404 0 null 31.0882ms {"EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:00000002","RequestPath":"/favicon.ico","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:49:46.524 +03:00 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5071/favicon.ico, Response status code: 404 {"EventId":{"Id":16},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:00000002","RequestPath":"/favicon.ico","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:50:26.015 +03:00 INF] Request starting HTTP/1.1 GET http://localhost:5071/health - null null {"EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:00000003","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:50:26.036 +03:00 INF] Executing endpoint 'Health checks' {"EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T04:00000003","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:50:26.085 +03:00 ERR] Health check postgresql with status "Unhealthy" completed after 40.3899ms with message '28P01: password authentication failed for user "postgres"' {"EventId":{"Id":103,"Name":"HealthCheckEnd"},"SourceContext":"Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService","RequestId":"0HNJOT2M85T04:00000003","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+Npgsql.PostgresException (0x80004005): 28P01: password authentication failed for user "postgres"
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 31
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 37
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: password authentication failed for user "postgres"
+    File: auth.c
+    Line: 331
+    Routine: auth_failed
+[2026-03-03 08:50:26.111 +03:00 INF] Executed endpoint 'Health checks' {"EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T04:00000003","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:50:26.133 +03:00 ERR] HTTP GET /health responded 503 in 97.3588 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJOT2M85T04:00000003","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:50:26.143 +03:00 INF] Request finished HTTP/1.1 GET http://localhost:5071/health - 503 null application/json; charset=utf-8 128.3035ms {"EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:00000003","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:50:27.667 +03:00 INF] Request starting HTTP/1.1 GET http://localhost:5071/health - null null {"EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:00000004","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:50:27.682 +03:00 INF] Executing endpoint 'Health checks' {"EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T04:00000004","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:50:27.733 +03:00 ERR] Health check postgresql with status "Unhealthy" completed after 41.4865ms with message '28P01: password authentication failed for user "postgres"' {"EventId":{"Id":103,"Name":"HealthCheckEnd"},"SourceContext":"Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService","RequestId":"0HNJOT2M85T04:00000004","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+Npgsql.PostgresException (0x80004005): 28P01: password authentication failed for user "postgres"
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 31
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 37
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: password authentication failed for user "postgres"
+    File: auth.c
+    Line: 331
+    Routine: auth_failed
+[2026-03-03 08:50:27.758 +03:00 INF] Executed endpoint 'Health checks' {"EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T04:00000004","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:50:27.773 +03:00 ERR] HTTP GET /health responded 503 in 90.9878 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJOT2M85T04:00000004","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:50:27.784 +03:00 INF] Request finished HTTP/1.1 GET http://localhost:5071/health - 503 null application/json; charset=utf-8 116.9666ms {"EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:00000004","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:50:30.521 +03:00 INF] Request starting HTTP/1.1 GET http://localhost:5071/health - null null {"EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:00000005","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:50:30.539 +03:00 INF] Executing endpoint 'Health checks' {"EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T04:00000005","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:50:30.589 +03:00 ERR] Health check postgresql with status "Unhealthy" completed after 40.4284ms with message '28P01: password authentication failed for user "postgres"' {"EventId":{"Id":103,"Name":"HealthCheckEnd"},"SourceContext":"Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService","RequestId":"0HNJOT2M85T04:00000005","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+Npgsql.PostgresException (0x80004005): 28P01: password authentication failed for user "postgres"
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 31
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 37
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: password authentication failed for user "postgres"
+    File: auth.c
+    Line: 331
+    Routine: auth_failed
+[2026-03-03 08:50:30.614 +03:00 INF] Executed endpoint 'Health checks' {"EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T04:00000005","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:50:30.628 +03:00 ERR] HTTP GET /health responded 503 in 90.1637 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJOT2M85T04:00000005","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:50:30.639 +03:00 INF] Request finished HTTP/1.1 GET http://localhost:5071/health - 503 null application/json; charset=utf-8 117.4999ms {"EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:00000005","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:33.587 +03:00 INF] Request starting HTTP/1.1 GET http://localhost:5071/health - null null {"EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:00000006","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:33.608 +03:00 INF] Executing endpoint 'Health checks' {"EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T04:00000006","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:33.651 +03:00 ERR] Health check postgresql with status "Unhealthy" completed after 32.8693ms with message '28P01: password authentication failed for user "postgres"' {"EventId":{"Id":103,"Name":"HealthCheckEnd"},"SourceContext":"Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService","RequestId":"0HNJOT2M85T04:00000006","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+Npgsql.PostgresException (0x80004005): 28P01: password authentication failed for user "postgres"
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 31
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 37
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: password authentication failed for user "postgres"
+    File: auth.c
+    Line: 331
+    Routine: auth_failed
+[2026-03-03 08:51:33.675 +03:00 INF] Executed endpoint 'Health checks' {"EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T04:00000006","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:33.688 +03:00 ERR] HTTP GET /health responded 503 in 80.1516 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJOT2M85T04:00000006","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:33.697 +03:00 INF] Request finished HTTP/1.1 GET http://localhost:5071/health - 503 null application/json; charset=utf-8 110.1611ms {"EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:00000006","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:34.516 +03:00 INF] Request starting HTTP/1.1 GET http://localhost:5071/health - null null {"EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:00000007","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:34.536 +03:00 INF] Executing endpoint 'Health checks' {"EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T04:00000007","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:34.580 +03:00 ERR] Health check postgresql with status "Unhealthy" completed after 34.4075ms with message '28P01: password authentication failed for user "postgres"' {"EventId":{"Id":103,"Name":"HealthCheckEnd"},"SourceContext":"Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService","RequestId":"0HNJOT2M85T04:00000007","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+Npgsql.PostgresException (0x80004005): 28P01: password authentication failed for user "postgres"
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 31
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 37
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: password authentication failed for user "postgres"
+    File: auth.c
+    Line: 331
+    Routine: auth_failed
+[2026-03-03 08:51:34.605 +03:00 INF] Executed endpoint 'Health checks' {"EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T04:00000007","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:34.630 +03:00 ERR] HTTP GET /health responded 503 in 93.9078 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJOT2M85T04:00000007","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:34.643 +03:00 INF] Request finished HTTP/1.1 GET http://localhost:5071/health - 503 null application/json; charset=utf-8 127.4448ms {"EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:00000007","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:34.854 +03:00 INF] Request starting HTTP/1.1 GET http://localhost:5071/health - null null {"EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:00000008","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:34.871 +03:00 INF] Executing endpoint 'Health checks' {"EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T04:00000008","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:34.919 +03:00 ERR] Health check postgresql with status "Unhealthy" completed after 35.7634ms with message '28P01: password authentication failed for user "postgres"' {"EventId":{"Id":103,"Name":"HealthCheckEnd"},"SourceContext":"Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService","RequestId":"0HNJOT2M85T04:00000008","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+Npgsql.PostgresException (0x80004005): 28P01: password authentication failed for user "postgres"
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 31
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 37
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: password authentication failed for user "postgres"
+    File: auth.c
+    Line: 331
+    Routine: auth_failed
+[2026-03-03 08:51:34.945 +03:00 INF] Executed endpoint 'Health checks' {"EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T04:00000008","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:34.959 +03:00 ERR] HTTP GET /health responded 503 in 87.5795 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJOT2M85T04:00000008","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:34.967 +03:00 INF] Request finished HTTP/1.1 GET http://localhost:5071/health - 503 null application/json; charset=utf-8 113.0208ms {"EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:00000008","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.002 +03:00 INF] Request starting HTTP/1.1 GET http://localhost:5071/health - null null {"EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:00000009","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.018 +03:00 INF] Executing endpoint 'Health checks' {"EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T04:00000009","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.063 +03:00 ERR] Health check postgresql with status "Unhealthy" completed after 31.7844ms with message '28P01: password authentication failed for user "postgres"' {"EventId":{"Id":103,"Name":"HealthCheckEnd"},"SourceContext":"Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService","RequestId":"0HNJOT2M85T04:00000009","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+Npgsql.PostgresException (0x80004005): 28P01: password authentication failed for user "postgres"
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 31
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 37
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: password authentication failed for user "postgres"
+    File: auth.c
+    Line: 331
+    Routine: auth_failed
+[2026-03-03 08:51:35.089 +03:00 INF] Executed endpoint 'Health checks' {"EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T04:00000009","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.101 +03:00 ERR] HTTP GET /health responded 503 in 82.7296 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJOT2M85T04:00000009","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.111 +03:00 INF] Request finished HTTP/1.1 GET http://localhost:5071/health - 503 null application/json; charset=utf-8 109.2379ms {"EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:00000009","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.149 +03:00 INF] Request starting HTTP/1.1 GET http://localhost:5071/health - null null {"EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:0000000A","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.162 +03:00 INF] Executing endpoint 'Health checks' {"EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T04:0000000A","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.205 +03:00 ERR] Health check postgresql with status "Unhealthy" completed after 32.0889ms with message '28P01: password authentication failed for user "postgres"' {"EventId":{"Id":103,"Name":"HealthCheckEnd"},"SourceContext":"Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService","RequestId":"0HNJOT2M85T04:0000000A","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+Npgsql.PostgresException (0x80004005): 28P01: password authentication failed for user "postgres"
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 31
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 37
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: password authentication failed for user "postgres"
+    File: auth.c
+    Line: 331
+    Routine: auth_failed
+[2026-03-03 08:51:35.230 +03:00 INF] Executed endpoint 'Health checks' {"EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T04:0000000A","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.243 +03:00 ERR] HTTP GET /health responded 503 in 80.4933 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJOT2M85T04:0000000A","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.252 +03:00 INF] Request finished HTTP/1.1 GET http://localhost:5071/health - 503 null application/json; charset=utf-8 103.0539ms {"EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:0000000A","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.292 +03:00 INF] Request starting HTTP/1.1 GET http://localhost:5071/health - null null {"EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:0000000B","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.308 +03:00 INF] Executing endpoint 'Health checks' {"EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T04:0000000B","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.350 +03:00 ERR] Health check postgresql with status "Unhealthy" completed after 31.6735ms with message '28P01: password authentication failed for user "postgres"' {"EventId":{"Id":103,"Name":"HealthCheckEnd"},"SourceContext":"Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService","RequestId":"0HNJOT2M85T04:0000000B","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+Npgsql.PostgresException (0x80004005): 28P01: password authentication failed for user "postgres"
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 31
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 37
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: password authentication failed for user "postgres"
+    File: auth.c
+    Line: 331
+    Routine: auth_failed
+[2026-03-03 08:51:35.373 +03:00 INF] Executed endpoint 'Health checks' {"EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T04:0000000B","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.385 +03:00 ERR] HTTP GET /health responded 503 in 76.8072 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJOT2M85T04:0000000B","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.394 +03:00 INF] Request finished HTTP/1.1 GET http://localhost:5071/health - 503 null application/json; charset=utf-8 102.4467ms {"EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:0000000B","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.444 +03:00 INF] Request starting HTTP/1.1 GET http://localhost:5071/health - null null {"EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:0000000C","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.458 +03:00 INF] Executing endpoint 'Health checks' {"EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T04:0000000C","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.503 +03:00 ERR] Health check postgresql with status "Unhealthy" completed after 34.037ms with message '28P01: password authentication failed for user "postgres"' {"EventId":{"Id":103,"Name":"HealthCheckEnd"},"SourceContext":"Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService","RequestId":"0HNJOT2M85T04:0000000C","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+Npgsql.PostgresException (0x80004005): 28P01: password authentication failed for user "postgres"
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 31
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 37
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: password authentication failed for user "postgres"
+    File: auth.c
+    Line: 331
+    Routine: auth_failed
+[2026-03-03 08:51:35.529 +03:00 INF] Executed endpoint 'Health checks' {"EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T04:0000000C","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.545 +03:00 ERR] HTTP GET /health responded 503 in 86.8922 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJOT2M85T04:0000000C","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.555 +03:00 INF] Request finished HTTP/1.1 GET http://localhost:5071/health - 503 null application/json; charset=utf-8 111.0719ms {"EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:0000000C","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.594 +03:00 INF] Request starting HTTP/1.1 GET http://localhost:5071/health - null null {"EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:0000000D","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.608 +03:00 INF] Executing endpoint 'Health checks' {"EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T04:0000000D","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.652 +03:00 ERR] Health check postgresql with status "Unhealthy" completed after 31.6018ms with message '28P01: password authentication failed for user "postgres"' {"EventId":{"Id":103,"Name":"HealthCheckEnd"},"SourceContext":"Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService","RequestId":"0HNJOT2M85T04:0000000D","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+Npgsql.PostgresException (0x80004005): 28P01: password authentication failed for user "postgres"
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 31
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 37
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: password authentication failed for user "postgres"
+    File: auth.c
+    Line: 331
+    Routine: auth_failed
+[2026-03-03 08:51:35.673 +03:00 INF] Executed endpoint 'Health checks' {"EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T04:0000000D","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.684 +03:00 ERR] HTTP GET /health responded 503 in 75.8104 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJOT2M85T04:0000000D","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.693 +03:00 INF] Request finished HTTP/1.1 GET http://localhost:5071/health - 503 null application/json; charset=utf-8 98.4451ms {"EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:0000000D","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.732 +03:00 INF] Request starting HTTP/1.1 GET http://localhost:5071/health - null null {"EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:0000000E","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.748 +03:00 INF] Executing endpoint 'Health checks' {"EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T04:0000000E","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.791 +03:00 ERR] Health check postgresql with status "Unhealthy" completed after 32.0976ms with message '28P01: password authentication failed for user "postgres"' {"EventId":{"Id":103,"Name":"HealthCheckEnd"},"SourceContext":"Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService","RequestId":"0HNJOT2M85T04:0000000E","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+Npgsql.PostgresException (0x80004005): 28P01: password authentication failed for user "postgres"
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 31
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 37
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: password authentication failed for user "postgres"
+    File: auth.c
+    Line: 331
+    Routine: auth_failed
+[2026-03-03 08:51:35.812 +03:00 INF] Executed endpoint 'Health checks' {"EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T04:0000000E","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.825 +03:00 ERR] HTTP GET /health responded 503 in 77.4947 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJOT2M85T04:0000000E","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.835 +03:00 INF] Request finished HTTP/1.1 GET http://localhost:5071/health - 503 null application/json; charset=utf-8 103.1156ms {"EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:0000000E","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.879 +03:00 INF] Request starting HTTP/1.1 GET http://localhost:5071/health - null null {"EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:0000000F","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.894 +03:00 INF] Executing endpoint 'Health checks' {"EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T04:0000000F","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.939 +03:00 ERR] Health check postgresql with status "Unhealthy" completed after 34.7431ms with message '28P01: password authentication failed for user "postgres"' {"EventId":{"Id":103,"Name":"HealthCheckEnd"},"SourceContext":"Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService","RequestId":"0HNJOT2M85T04:0000000F","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+Npgsql.PostgresException (0x80004005): 28P01: password authentication failed for user "postgres"
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 31
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 37
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: password authentication failed for user "postgres"
+    File: auth.c
+    Line: 331
+    Routine: auth_failed
+[2026-03-03 08:51:35.962 +03:00 INF] Executed endpoint 'Health checks' {"EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T04:0000000F","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.972 +03:00 ERR] HTTP GET /health responded 503 in 79.0880 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJOT2M85T04:0000000F","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:35.981 +03:00 INF] Request finished HTTP/1.1 GET http://localhost:5071/health - 503 null application/json; charset=utf-8 102.0858ms {"EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:0000000F","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:36.033 +03:00 INF] Request starting HTTP/1.1 GET http://localhost:5071/health - null null {"EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:00000010","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:36.051 +03:00 INF] Executing endpoint 'Health checks' {"EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T04:00000010","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:36.092 +03:00 ERR] Health check postgresql with status "Unhealthy" completed after 29.7658ms with message '28P01: password authentication failed for user "postgres"' {"EventId":{"Id":103,"Name":"HealthCheckEnd"},"SourceContext":"Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService","RequestId":"0HNJOT2M85T04:00000010","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+Npgsql.PostgresException (0x80004005): 28P01: password authentication failed for user "postgres"
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 31
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 37
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: password authentication failed for user "postgres"
+    File: auth.c
+    Line: 331
+    Routine: auth_failed
+[2026-03-03 08:51:36.114 +03:00 INF] Executed endpoint 'Health checks' {"EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T04:00000010","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:36.127 +03:00 ERR] HTTP GET /health responded 503 in 76.4697 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJOT2M85T04:00000010","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:36.137 +03:00 INF] Request finished HTTP/1.1 GET http://localhost:5071/health - 503 null application/json; charset=utf-8 103.3304ms {"EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:00000010","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:36.250 +03:00 INF] Request starting HTTP/1.1 GET http://localhost:5071/health - null null {"EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:00000011","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:36.264 +03:00 INF] Executing endpoint 'Health checks' {"EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T04:00000011","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:36.305 +03:00 ERR] Health check postgresql with status "Unhealthy" completed after 32.0597ms with message '28P01: password authentication failed for user "postgres"' {"EventId":{"Id":103,"Name":"HealthCheckEnd"},"SourceContext":"Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService","RequestId":"0HNJOT2M85T04:00000011","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+Npgsql.PostgresException (0x80004005): 28P01: password authentication failed for user "postgres"
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 31
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 37
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: password authentication failed for user "postgres"
+    File: auth.c
+    Line: 331
+    Routine: auth_failed
+[2026-03-03 08:51:36.327 +03:00 INF] Executed endpoint 'Health checks' {"EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOT2M85T04:00000011","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:36.345 +03:00 ERR] HTTP GET /health responded 503 in 81.6099 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJOT2M85T04:00000011","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 08:51:36.355 +03:00 INF] Request finished HTTP/1.1 GET http://localhost:5071/health - 503 null application/json; charset=utf-8 104.5899ms {"EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOT2M85T04:00000011","RequestPath":"/health","ConnectionId":"0HNJOT2M85T04","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 09:04:57.543 +03:00 INF] Запуск приложения TaskManager {"Application":"TaskManager","Environment":"Development"}
+[2026-03-03 09:04:57.897 +03:00 INF] Приложение успешно запущено {"Application":"TaskManager","Environment":"Development"}
+[2026-03-03 09:04:57.935 +03:00 INF] User profile is available. Using 'C:\Users\dmitr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. {"EventId":{"Id":63,"Name":"UsingProfileAsKeyRepositoryWithDPAPI"},"SourceContext":"Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 09:04:58.158 +03:00 INF] Now listening on: http://localhost:5071 {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 09:04:58.207 +03:00 INF] Application started. Press Ctrl+C to shut down. {"SourceContext":"Microsoft.Hosting.Lifetime","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 09:04:58.211 +03:00 INF] Hosting environment: Development {"SourceContext":"Microsoft.Hosting.Lifetime","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 09:04:58.214 +03:00 INF] Content root path: D:\Менеджер задач\TaskManager.API {"SourceContext":"Microsoft.Hosting.Lifetime","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 09:05:13.832 +03:00 INF] Request starting HTTP/1.1 GET http://localhost:5071/health - null null {"EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOTBASAUG0:00000001","RequestPath":"/health","ConnectionId":"0HNJOTBASAUG0","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 09:05:14.039 +03:00 WRN] Failed to determine the https port for redirect. {"EventId":{"Id":3,"Name":"FailedToDeterminePort"},"SourceContext":"Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware","RequestId":"0HNJOTBASAUG0:00000001","RequestPath":"/health","ConnectionId":"0HNJOTBASAUG0","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 09:05:14.140 +03:00 INF] Executing endpoint 'Health checks' {"EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOTBASAUG0:00000001","RequestPath":"/health","ConnectionId":"0HNJOTBASAUG0","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 09:05:14.387 +03:00 ERR] Health check postgresql with status "Unhealthy" completed after 218.6789ms with message '28P01: password authentication failed for user "postgres"' {"EventId":{"Id":103,"Name":"HealthCheckEnd"},"SourceContext":"Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService","RequestId":"0HNJOTBASAUG0:00000001","RequestPath":"/health","ConnectionId":"0HNJOTBASAUG0","Application":"TaskManager","Environment":"Development"}
+Npgsql.PostgresException (0x80004005): 28P01: password authentication failed for user "postgres"
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 31
+   at HealthChecks.NpgSql.NpgSqlHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.NpgSql/NpgSqlHealthCheck.cs:line 37
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: password authentication failed for user "postgres"
+    File: auth.c
+    Line: 331
+    Routine: auth_failed
+[2026-03-03 09:05:14.486 +03:00 INF] Executed endpoint 'Health checks' {"EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HNJOTBASAUG0:00000001","RequestPath":"/health","ConnectionId":"0HNJOTBASAUG0","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 09:05:14.504 +03:00 ERR] HTTP GET /health responded 503 in 467.2296 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJOTBASAUG0:00000001","ConnectionId":"0HNJOTBASAUG0","Application":"TaskManager","Environment":"Development"}
+[2026-03-03 09:05:14.523 +03:00 INF] Request finished HTTP/1.1 GET http://localhost:5071/health - 503 null application/json; charset=utf-8 706.9454ms {"EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HNJOTBASAUG0:00000001","RequestPath":"/health","ConnectionId":"0HNJOTBASAUG0","Application":"TaskManager","Environment":"Development"}

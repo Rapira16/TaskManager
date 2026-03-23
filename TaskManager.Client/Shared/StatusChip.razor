@@ -1,0 +1,18 @@
+﻿@using MudBlazor
+
+<MudChip T="string" Size="Size.Small" Style="@GetStyle()">
+    @StatusName
+</MudChip>
+
+@code {
+    [Parameter] public int Status { get; set; }
+    [Parameter] public string StatusName { get; set; } = string.Empty;
+
+    private string GetStyle() => Status switch
+    {
+        0 => "background-color: #e3f2fd; color: #1565c0;",   // ToDo
+        1 => "background-color: #fff3e0; color: #e65100;",   // InProgress
+        2 => "background-color: #e8f5e9; color: #2e7d32;",   // Done
+        _ => ""
+    };
+}

@@ -4445,35 +4445,42 @@
     ]
   },
   "packageFolders": {
-    "/home/hanich/.nuget/packages/": {}
+    "C:\\Users\\dmitr\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/hanich/TaskManager/TaskManager.API/TaskManager.API.csproj",
+      "projectUniqueName": "D:\\Менеджер задач\\TaskManager.API\\TaskManager.API.csproj",
       "projectName": "TaskManager.API",
-      "projectPath": "/home/hanich/TaskManager/TaskManager.API/TaskManager.API.csproj",
-      "packagesPath": "/home/hanich/.nuget/packages/",
-      "outputPath": "/home/hanich/TaskManager/TaskManager.API/obj/",
+      "projectPath": "D:\\Менеджер задач\\TaskManager.API\\TaskManager.API.csproj",
+      "packagesPath": "C:\\Users\\dmitr\\.nuget\\packages\\",
+      "outputPath": "D:\\Менеджер задач\\TaskManager.API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/hanich/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\dmitr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/home/hanich/TaskManager/TaskManager.Application/TaskManager.Application.csproj": {
-              "projectPath": "/home/hanich/TaskManager/TaskManager.Application/TaskManager.Application.csproj"
+            "D:\\Менеджер задач\\TaskManager.Application\\TaskManager.Application.csproj": {
+              "projectPath": "D:\\Менеджер задач\\TaskManager.Application\\TaskManager.Application.csproj"
             },
-            "/home/hanich/TaskManager/TaskManager.Infrastructure/TaskManager.Infrastructure.csproj": {
-              "projectPath": "/home/hanich/TaskManager/TaskManager.Infrastructure/TaskManager.Infrastructure.csproj"
+            "D:\\Менеджер задач\\TaskManager.Infrastructure\\TaskManager.Infrastructure.csproj": {
+              "projectPath": "D:\\Менеджер задач\\TaskManager.Infrastructure\\TaskManager.Infrastructure.csproj"
             }
           }
         }
@@ -4582,7 +4589,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/hanich/.local/share/mise/installs/dotnet/10.0.101/sdk/10.0.101/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

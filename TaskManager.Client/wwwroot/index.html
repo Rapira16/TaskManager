@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Manager</title>
+    <base href="/" />
+
+    <!-- MudBlazor стили -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .mud-overlay-scrim {
+            backdrop-filter: blur(4px);
+        }
+
+        /* Кастомные стили для статусов задач */
+        .status-todo {
+            background-color: #e3f2fd;
+            color: #1565c0;
+        }
+
+        .status-inprogress {
+            background-color: #fff3e0;
+            color: #e65100;
+        }
+
+        .status-done {
+            background-color: #e8f5e9;
+            color: #2e7d32;
+        }
+
+        /* Кастомные стили для приоритетов */
+        .priority-low {
+            color: #66bb6a;
+        }
+
+        .priority-medium {
+            color: #ffa726;
+        }
+
+        .priority-high {
+            color: #ef5350;
+        }
+
+        .priority-critical {
+            color: #b71c1c;
+            font-weight: bold;
+        }
+
+        /* Просроченные задачи */
+        .overdue-row {
+            background-color: #fff5f5;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+            <div style="text-align: center;">
+                <div style="width: 50px; height: 50px; border: 5px solid #1976d2;
+                            border-top-color: transparent; border-radius: 50%;
+                            animation: spin 1s linear infinite; margin: 0 auto 16px;">
+                </div>
+                <p style="color: #666; font-family: Roboto, sans-serif;">Загрузка...</p>
+            </div>
+        </div>
+        <style>
+            @keyframes spin {
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+        </style>
+    </div>
+
+    <div id="blazor-error-ui" style="display:none;">
+        Произошла необработанная ошибка.
+        <a href="" class="reload">Перезагрузить</a>
+        <a class="dismiss">🗙</a>
+    </div>
+
+    <script src="_content/MudBlazor/MudBlazor.min.js"></script>
+    <script src="_content/Blazored.LocalStorage/blazored-localstorage.js"></script>
+    <script src="_framework/blazor.webassembly.js"></script>
+</body>
+
+</html>

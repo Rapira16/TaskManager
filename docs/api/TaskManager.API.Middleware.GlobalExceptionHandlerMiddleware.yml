@@ -1,0 +1,584 @@
+### YamlMime:ManagedReference
+items:
+- uid: TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware
+  commentId: T:TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware
+  id: GlobalExceptionHandlerMiddleware
+  parent: TaskManager.API.Middleware
+  children:
+  - TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILogger{TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware})
+  - TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)
+  langs:
+  - csharp
+  - vb
+  name: GlobalExceptionHandlerMiddleware
+  nameWithType: GlobalExceptionHandlerMiddleware
+  fullName: TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware
+  type: Class
+  source:
+    remote:
+      path: TaskManager.API/Middleware/GlobalExceptionHandlerMiddleware.cs
+      branch: master
+      repo: https://github.com/Rapira16/TaskManager.git
+    id: GlobalExceptionHandlerMiddleware
+    path: ../TaskManager.API/Middleware/GlobalExceptionHandlerMiddleware.cs
+    startLine: 6
+  assemblies:
+  - TaskManager.API
+  namespace: TaskManager.API.Middleware
+  syntax:
+    content: public class GlobalExceptionHandlerMiddleware
+    content.vb: Public Class GlobalExceptionHandlerMiddleware
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILogger{TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware})
+  commentId: M:TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILogger{TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware})
+  id: '#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILogger{TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware})'
+  parent: TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware
+  langs:
+  - csharp
+  - vb
+  name: GlobalExceptionHandlerMiddleware(RequestDelegate, ILogger<GlobalExceptionHandlerMiddleware>)
+  nameWithType: GlobalExceptionHandlerMiddleware.GlobalExceptionHandlerMiddleware(RequestDelegate, ILogger<GlobalExceptionHandlerMiddleware>)
+  fullName: TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware.GlobalExceptionHandlerMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, Microsoft.Extensions.Logging.ILogger<TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware>)
+  type: Constructor
+  source:
+    remote:
+      path: TaskManager.API/Middleware/GlobalExceptionHandlerMiddleware.cs
+      branch: master
+      repo: https://github.com/Rapira16/TaskManager.git
+    id: .ctor
+    path: ../TaskManager.API/Middleware/GlobalExceptionHandlerMiddleware.cs
+    startLine: 11
+  assemblies:
+  - TaskManager.API
+  namespace: TaskManager.API.Middleware
+  syntax:
+    content: public GlobalExceptionHandlerMiddleware(RequestDelegate next, ILogger<GlobalExceptionHandlerMiddleware> logger)
+    parameters:
+    - id: next
+      type: Microsoft.AspNetCore.Http.RequestDelegate
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware}
+    content.vb: Public Sub New([next] As RequestDelegate, logger As ILogger(Of GlobalExceptionHandlerMiddleware))
+  overload: TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware.#ctor*
+  nameWithType.vb: GlobalExceptionHandlerMiddleware.New(RequestDelegate, ILogger(Of GlobalExceptionHandlerMiddleware))
+  fullName.vb: TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware.New(Microsoft.AspNetCore.Http.RequestDelegate, Microsoft.Extensions.Logging.ILogger(Of TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware))
+  name.vb: New(RequestDelegate, ILogger(Of GlobalExceptionHandlerMiddleware))
+- uid: TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)
+  commentId: M:TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)
+  id: InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)
+  parent: TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware
+  langs:
+  - csharp
+  - vb
+  name: InvokeAsync(HttpContext)
+  nameWithType: GlobalExceptionHandlerMiddleware.InvokeAsync(HttpContext)
+  fullName: TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)
+  type: Method
+  source:
+    remote:
+      path: TaskManager.API/Middleware/GlobalExceptionHandlerMiddleware.cs
+      branch: master
+      repo: https://github.com/Rapira16/TaskManager.git
+    id: InvokeAsync
+    path: ../TaskManager.API/Middleware/GlobalExceptionHandlerMiddleware.cs
+    startLine: 19
+  assemblies:
+  - TaskManager.API
+  namespace: TaskManager.API.Middleware
+  syntax:
+    content: public Task InvokeAsync(HttpContext context)
+    parameters:
+    - id: context
+      type: Microsoft.AspNetCore.Http.HttpContext
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function InvokeAsync(context As HttpContext) As Task
+  overload: TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware.InvokeAsync*
+references:
+- uid: TaskManager.API.Middleware
+  commentId: N:TaskManager.API.Middleware
+  href: TaskManager.html
+  name: TaskManager.API.Middleware
+  nameWithType: TaskManager.API.Middleware
+  fullName: TaskManager.API.Middleware
+  spec.csharp:
+  - uid: TaskManager
+    name: TaskManager
+    href: TaskManager.html
+  - name: .
+  - uid: TaskManager.API
+    name: API
+    href: TaskManager.API.html
+  - name: .
+  - uid: TaskManager.API.Middleware
+    name: Middleware
+    href: TaskManager.API.Middleware.html
+  spec.vb:
+  - uid: TaskManager
+    name: TaskManager
+    href: TaskManager.html
+  - name: .
+  - uid: TaskManager.API
+    name: API
+    href: TaskManager.API.html
+  - name: .
+  - uid: TaskManager.API.Middleware
+    name: Middleware
+    href: TaskManager.API.Middleware.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware.#ctor*
+  commentId: Overload:TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware.#ctor
+  href: TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware.html#TaskManager_API_Middleware_GlobalExceptionHandlerMiddleware__ctor_Microsoft_AspNetCore_Http_RequestDelegate_Microsoft_Extensions_Logging_ILogger_TaskManager_API_Middleware_GlobalExceptionHandlerMiddleware__
+  name: GlobalExceptionHandlerMiddleware
+  nameWithType: GlobalExceptionHandlerMiddleware.GlobalExceptionHandlerMiddleware
+  fullName: TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware.GlobalExceptionHandlerMiddleware
+  nameWithType.vb: GlobalExceptionHandlerMiddleware.New
+  fullName.vb: TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware.New
+  name.vb: New
+- uid: Microsoft.AspNetCore.Http.RequestDelegate
+  commentId: T:Microsoft.AspNetCore.Http.RequestDelegate
+  parent: Microsoft.AspNetCore.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.http.requestdelegate
+  name: RequestDelegate
+  nameWithType: RequestDelegate
+  fullName: Microsoft.AspNetCore.Http.RequestDelegate
+- uid: Microsoft.Extensions.Logging.ILogger{TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware}
+  parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<GlobalExceptionHandlerMiddleware>
+  nameWithType: ILogger<GlobalExceptionHandlerMiddleware>
+  fullName: Microsoft.Extensions.Logging.ILogger<TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware>
+  nameWithType.vb: ILogger(Of GlobalExceptionHandlerMiddleware)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware)
+  name.vb: ILogger(Of GlobalExceptionHandlerMiddleware)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - uid: TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware
+    name: GlobalExceptionHandlerMiddleware
+    href: TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware
+    name: GlobalExceptionHandlerMiddleware
+    href: TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware.html
+  - name: )
+- uid: Microsoft.AspNetCore.Http
+  commentId: N:Microsoft.AspNetCore.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.AspNetCore.Http
+  nameWithType: Microsoft.AspNetCore.Http
+  fullName: Microsoft.AspNetCore.Http
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.AspNetCore
+    name: AspNetCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore
+  - name: .
+  - uid: Microsoft.AspNetCore.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.http
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.AspNetCore
+    name: AspNetCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore
+  - name: .
+  - uid: Microsoft.AspNetCore.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.http
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - name: TCategoryName
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCategoryName
+  - name: )
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+- uid: TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware.InvokeAsync*
+  commentId: Overload:TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware.InvokeAsync
+  href: TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware.html#TaskManager_API_Middleware_GlobalExceptionHandlerMiddleware_InvokeAsync_Microsoft_AspNetCore_Http_HttpContext_
+  name: InvokeAsync
+  nameWithType: GlobalExceptionHandlerMiddleware.InvokeAsync
+  fullName: TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware.InvokeAsync
+- uid: Microsoft.AspNetCore.Http.HttpContext
+  commentId: T:Microsoft.AspNetCore.Http.HttpContext
+  parent: Microsoft.AspNetCore.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.http.httpcontext
+  name: HttpContext
+  nameWithType: HttpContext
+  fullName: Microsoft.AspNetCore.Http.HttpContext
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

@@ -13,3 +13,19 @@
 /home/hanich/TaskManager/TaskManager.Application/obj/Debug/net10.0/refint/TaskManager.Application.dll
 /home/hanich/TaskManager/TaskManager.Application/obj/Debug/net10.0/TaskManager.Application.pdb
 /home/hanich/TaskManager/TaskManager.Application/obj/Debug/net10.0/ref/TaskManager.Application.dll
+D:\Менеджер задач\TaskManager.Application\bin\Debug\net10.0\TaskManager.Application.deps.json
+D:\Менеджер задач\TaskManager.Application\bin\Debug\net10.0\TaskManager.Application.dll
+D:\Менеджер задач\TaskManager.Application\bin\Debug\net10.0\TaskManager.Application.pdb
+D:\Менеджер задач\TaskManager.Application\bin\Debug\net10.0\TaskManager.Domain.dll
+D:\Менеджер задач\TaskManager.Application\bin\Debug\net10.0\TaskManager.Domain.pdb
+D:\Менеджер задач\TaskManager.Application\obj\Debug\net10.0\TaskManager.Application.csproj.AssemblyReference.cache
+D:\Менеджер задач\TaskManager.Application\obj\Debug\net10.0\TaskManager.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Менеджер задач\TaskManager.Application\obj\Debug\net10.0\TaskManager.Application.AssemblyInfoInputs.cache
+D:\Менеджер задач\TaskManager.Application\obj\Debug\net10.0\TaskManager.Application.AssemblyInfo.cs
+D:\Менеджер задач\TaskManager.Application\obj\Debug\net10.0\TaskManager.Application.csproj.CoreCompileInputs.cache
+D:\Менеджер задач\TaskManager.Application\obj\Debug\net10.0\TaskManager.Application.sourcelink.json
+D:\Менеджер задач\TaskManager.Application\obj\Debug\net10.0\TaskMana.898BD9DB.Up2Date
+D:\Менеджер задач\TaskManager.Application\obj\Debug\net10.0\TaskManager.Application.dll
+D:\Менеджер задач\TaskManager.Application\obj\Debug\net10.0\refint\TaskManager.Application.dll
+D:\Менеджер задач\TaskManager.Application\obj\Debug\net10.0\TaskManager.Application.pdb
+D:\Менеджер задач\TaskManager.Application\obj\Debug\net10.0\ref\TaskManager.Application.dll

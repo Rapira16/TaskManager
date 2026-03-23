@@ -1,0 +1,200 @@
+{
+  "source_base_path": "D:/Менеджер задач/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TaskManager.API.Controllers.AuthController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TaskManager.API.Controllers.AuthController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TaskManager.API.Controllers.AuthController",
+      "Summary": "<p sourcefile=\"api/TaskManager.API.Controllers.AuthController.yml\" sourcestartlinenumber=\"1\">Контроллер аутентификации и авторизации пользователей.\nОбеспечивает регистрацию, вход, обновление токенов и выход из системы.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TaskManager.API.Controllers.ProjectsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TaskManager.API.Controllers.ProjectsController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TaskManager.API.Controllers.ProjectsController",
+      "Summary": "<p sourcefile=\"api/TaskManager.API.Controllers.ProjectsController.yml\" sourcestartlinenumber=\"1\">Контроллер для управления проектами.\nПредоставляет CRUD-операции над проектами системы.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TaskManager.API.Controllers.TasksController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TaskManager.API.Controllers.TasksController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TaskManager.API.Controllers.TasksController",
+      "Summary": "<p sourcefile=\"api/TaskManager.API.Controllers.TasksController.yml\" sourcestartlinenumber=\"1\">Контроллер для управления задачами.\nПредоставляет операции создания, чтения, обновления и удаления задач,\nа также фильтрацию по статусу и приоритету.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TaskManager.API.Controllers.UsersController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TaskManager.API.Controllers.UsersController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TaskManager.API.Controllers.UsersController",
+      "Summary": "<p sourcefile=\"api/TaskManager.API.Controllers.UsersController.yml\" sourcestartlinenumber=\"1\">Контроллер для управления пользователями системы.\nПредоставляет операции чтения, обновления и удаления пользователей.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TaskManager.API.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TaskManager.API.Controllers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TaskManager.API.Controllers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TaskManager.API.Middleware.ErrorResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TaskManager.API.Middleware.ErrorResponse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TaskManager.API.Middleware.ErrorResponse",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TaskManager.API.Middleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TaskManager.API.Middleware.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TaskManager.API.Middleware",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+﻿@using Microsoft.AspNetCore.Components.Authorization
+<CascadingAuthenticationState>
+    <Router AppAssembly="@typeof(App).Assembly">
+        <Found Context="routeData">
+            <AuthorizeRouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)">
+                <NotAuthorized Context="authContext">
+                    @if (authContext.User.Identity?.IsAuthenticated != true)
+                    {
+                        <RedirectToLogin />
+                    }
+                    else
+                    {
+                        <MudText>У вас нет доступа к этой странице.</MudText>
+                    }
+                </NotAuthorized>
+                <Authorizing>
+                    <MudProgressCircular Indeterminate="true" />
+                </Authorizing>
+            </AuthorizeRouteView>
+        </Found>
+        <NotFound>
+            <PageTitle>Страница не найдена</PageTitle>
+            <LayoutView Layout="@typeof(MainLayout)">
+                <MudText Typo="Typo.h4" Align="Align.Center" Class="mt-8">
+                    404 — Страница не найдена
+                </MudText>
+                <MudText Align="Align.Center" Class="mt-4">
+                    <MudLink Href="/">Вернуться на главную</MudLink>
+                </MudText>
+            </LayoutView>
+        </NotFound>
+    </Router>
+</CascadingAuthenticationState>

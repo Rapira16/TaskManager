@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: TaskManager.API.Controllers
+  commentId: N:TaskManager.API.Controllers
+  id: TaskManager.API.Controllers
+  children:
+  - TaskManager.API.Controllers.AuthController
+  - TaskManager.API.Controllers.ProjectsController
+  - TaskManager.API.Controllers.TasksController
+  - TaskManager.API.Controllers.UsersController
+  langs:
+  - csharp
+  - vb
+  name: TaskManager.API.Controllers
+  nameWithType: TaskManager.API.Controllers
+  fullName: TaskManager.API.Controllers
+  type: Namespace
+  assemblies:
+  - TaskManager.API
+references:
+- uid: TaskManager.API.Controllers.AuthController
+  commentId: T:TaskManager.API.Controllers.AuthController
+  href: TaskManager.API.Controllers.AuthController.html
+  name: AuthController
+  nameWithType: AuthController
+  fullName: TaskManager.API.Controllers.AuthController
+- uid: TaskManager.API.Controllers.ProjectsController
+  commentId: T:TaskManager.API.Controllers.ProjectsController
+  href: TaskManager.API.Controllers.ProjectsController.html
+  name: ProjectsController
+  nameWithType: ProjectsController
+  fullName: TaskManager.API.Controllers.ProjectsController
+- uid: TaskManager.API.Controllers.TasksController
+  commentId: T:TaskManager.API.Controllers.TasksController
+  href: TaskManager.API.Controllers.TasksController.html
+  name: TasksController
+  nameWithType: TasksController
+  fullName: TaskManager.API.Controllers.TasksController
+- uid: TaskManager.API.Controllers.UsersController
+  commentId: T:TaskManager.API.Controllers.UsersController
+  href: TaskManager.API.Controllers.UsersController.html
+  name: UsersController
+  nameWithType: UsersController
+  fullName: TaskManager.API.Controllers.UsersController

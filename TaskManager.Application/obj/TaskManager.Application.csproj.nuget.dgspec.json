@@ -1,33 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/home/hanich/TaskManager/TaskManager.Application/TaskManager.Application.csproj": {}
+    "D:\\Менеджер задач\\TaskManager.Application\\TaskManager.Application.csproj": {}
   },
   "projects": {
-    "/home/hanich/TaskManager/TaskManager.Application/TaskManager.Application.csproj": {
+    "D:\\Менеджер задач\\TaskManager.Application\\TaskManager.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/hanich/TaskManager/TaskManager.Application/TaskManager.Application.csproj",
+        "projectUniqueName": "D:\\Менеджер задач\\TaskManager.Application\\TaskManager.Application.csproj",
         "projectName": "TaskManager.Application",
-        "projectPath": "/home/hanich/TaskManager/TaskManager.Application/TaskManager.Application.csproj",
-        "packagesPath": "/home/hanich/.nuget/packages/",
-        "outputPath": "/home/hanich/TaskManager/TaskManager.Application/obj/",
+        "projectPath": "D:\\Менеджер задач\\TaskManager.Application\\TaskManager.Application.csproj",
+        "packagesPath": "C:\\Users\\dmitr\\.nuget\\packages\\",
+        "outputPath": "D:\\Менеджер задач\\TaskManager.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/hanich/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\dmitr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/home/hanich/TaskManager/TaskManager.Domain/TaskManager.Domain.csproj": {
-                "projectPath": "/home/hanich/TaskManager/TaskManager.Domain/TaskManager.Domain.csproj"
+              "D:\\Менеджер задач\\TaskManager.Domain\\TaskManager.Domain.csproj": {
+                "projectPath": "D:\\Менеджер задач\\TaskManager.Domain\\TaskManager.Domain.csproj"
               }
             }
           }
@@ -93,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/hanich/.local/share/mise/installs/dotnet/10.0.101/sdk/10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -371,22 +377,28 @@
         }
       }
     },
-    "/home/hanich/TaskManager/TaskManager.Domain/TaskManager.Domain.csproj": {
+    "D:\\Менеджер задач\\TaskManager.Domain\\TaskManager.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/hanich/TaskManager/TaskManager.Domain/TaskManager.Domain.csproj",
+        "projectUniqueName": "D:\\Менеджер задач\\TaskManager.Domain\\TaskManager.Domain.csproj",
         "projectName": "TaskManager.Domain",
-        "projectPath": "/home/hanich/TaskManager/TaskManager.Domain/TaskManager.Domain.csproj",
-        "packagesPath": "/home/hanich/.nuget/packages/",
-        "outputPath": "/home/hanich/TaskManager/TaskManager.Domain/obj/",
+        "projectPath": "D:\\Менеджер задач\\TaskManager.Domain\\TaskManager.Domain.csproj",
+        "packagesPath": "C:\\Users\\dmitr\\.nuget\\packages\\",
+        "outputPath": "D:\\Менеджер задач\\TaskManager.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/hanich/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\dmitr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -426,7 +438,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/hanich/.local/share/mise/installs/dotnet/10.0.101/sdk/10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

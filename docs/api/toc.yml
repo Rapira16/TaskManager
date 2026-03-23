@@ -1,0 +1,29 @@
+### YamlMime:TableOfContent
+items:
+- uid: TaskManager.API.Controllers
+  name: TaskManager.API.Controllers
+  type: Namespace
+  items:
+  - uid: TaskManager.API.Controllers.AuthController
+    name: AuthController
+    type: Class
+  - uid: TaskManager.API.Controllers.ProjectsController
+    name: ProjectsController
+    type: Class
+  - uid: TaskManager.API.Controllers.TasksController
+    name: TasksController
+    type: Class
+  - uid: TaskManager.API.Controllers.UsersController
+    name: UsersController
+    type: Class
+- uid: TaskManager.API.Middleware
+  name: TaskManager.API.Middleware
+  type: Namespace
+  items:
+  - uid: TaskManager.API.Middleware.ErrorResponse
+    name: ErrorResponse
+    type: Class
+  - uid: TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware
+    name: GlobalExceptionHandlerMiddleware
+    type: Class
+memberLayout: SamePage

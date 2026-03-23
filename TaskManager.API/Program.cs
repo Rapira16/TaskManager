@@ -88,7 +88,8 @@ try
                 .WithOrigins(
                     "http://localhost:3000",      // React
                     "http://localhost:4200",      // Angular
-                    "http://localhost:5173"       // Vite
+                    "http://localhost:5173",      // Vite
+                    "http://localhost:5243"
                 )
                 .AllowAnyMethod()
                 .AllowAnyHeader()

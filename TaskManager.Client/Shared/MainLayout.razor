@@ -1,0 +1,110 @@
+﻿@inherits LayoutComponentBase
+@using Microsoft.AspNetCore.Components.Authorization
+@using MudBlazor
+@using TaskManager.Client.Services
+@inject IAuthService AuthService
+@inject NavigationManager Navigation
+@inject AuthenticationStateProvider AuthStateProvider
+
+<MudThemeProvider Theme="_theme" />
+<MudSnackbarProvider />
+<MudDialogProvider />
+
+<AuthorizeView>
+    <Authorized>
+        <MudLayout>
+            <!-- Верхняя панель -->
+            <MudAppBar Elevation="1" Color="Color.Primary">
+                <MudIconButton Icon="@Icons.Material.Filled.Menu"
+                               Color="Color.Inherit"
+                               Edge="Edge.Start"
+                               OnClick="@ToggleDrawer" />
+
+                <MudText Typo="Typo.h6" Class="ml-2">
+                    📋 Task Manager
+                </MudText>
+
+                <MudSpacer />
+
+                <!-- Кнопка выхода -->
+                <MudTooltip Text="Выйти">
+                    <MudIconButton Icon="@Icons.Material.Filled.Logout"
+                                   Color="Color.Inherit"
+                                   OnClick="@Logout" />
+                </MudTooltip>
+            </MudAppBar>
+
+            <!-- Боковое меню -->
+            <MudDrawer @bind-Open="_drawerOpen"
+                       ClipMode="DrawerClipMode.Always"
+                       Elevation="2">
+                <MudDrawerHeader>
+                    <MudText Typo="Typo.subtitle1" Class="mt-4">
+                        Меню
+                    </MudText>
+                </MudDrawerHeader>
+
+                <MudNavMenu>
+                    <MudNavLink Href="/"
+                                Icon="@Icons.Material.Filled.Dashboard"
+                                Match="NavLinkMatch.All">
+                        Дашборд
+                    </MudNavLink>
+
+                    <MudNavLink Href="/projects"
+                                Icon="@Icons.Material.Filled.Folder">
+                        Проекты
+                    </MudNavLink>
+
+                    <MudNavLink Href="/tasks"
+                                Icon="@Icons.Material.Filled.CheckBox">
+                        Задачи
+                    </MudNavLink>
+
+                    <MudDivider Class="my-2" />
+
+                    <AuthorizeView Roles="Admin" Context="adminAuth">
+                        <MudNavLink Href="/users"
+                                    Icon="@Icons.Material.Filled.People">
+                            Пользователи
+                        </MudNavLink>
+                    </AuthorizeView>
+                </MudNavMenu>
+            </MudDrawer>
+
+            <!-- Основной контент -->
+            <MudMainContent Class="pa-4">
+                @Body
+            </MudMainContent>
+        </MudLayout>
+    </Authorized>
+
+    <NotAuthorized>
+        @Body
+    </NotAuthorized>
+</AuthorizeView>
+
+@code {
+    private bool _drawerOpen = true;
+    
+    private MudTheme _theme = new MudTheme
+    {
+        PaletteLight = new PaletteLight
+        {
+            Primary = "#1976d2",
+            Secondary = "#dc004e",
+            AppbarBackground = "#1976d2"
+        }
+    };
+
+    private void ToggleDrawer()
+    {
+        _drawerOpen = !_drawerOpen;
+    }
+
+    private async Task Logout()
+    {
+        await AuthService.LogoutAsync();
+        Navigation.NavigateTo("/login", forceLoad: true);
+    }
+}

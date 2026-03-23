@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: TaskManager.API.Middleware
+  commentId: N:TaskManager.API.Middleware
+  id: TaskManager.API.Middleware
+  children:
+  - TaskManager.API.Middleware.ErrorResponse
+  - TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware
+  langs:
+  - csharp
+  - vb
+  name: TaskManager.API.Middleware
+  nameWithType: TaskManager.API.Middleware
+  fullName: TaskManager.API.Middleware
+  type: Namespace
+  assemblies:
+  - TaskManager.API
+references:
+- uid: TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware
+  commentId: T:TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware
+  href: TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware.html
+  name: GlobalExceptionHandlerMiddleware
+  nameWithType: GlobalExceptionHandlerMiddleware
+  fullName: TaskManager.API.Middleware.GlobalExceptionHandlerMiddleware
+- uid: TaskManager.API.Middleware.ErrorResponse
+  commentId: T:TaskManager.API.Middleware.ErrorResponse
+  href: TaskManager.API.Middleware.ErrorResponse.html
+  name: ErrorResponse
+  nameWithType: ErrorResponse
+  fullName: TaskManager.API.Middleware.ErrorResponse
