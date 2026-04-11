@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+Qv56O4HFwc=",
+  "dgSpecHash": "d1fi8CA2IPo=",
   "success": true,
-  "projectFilePath": "D:\\Менеджер задач\\TaskManager.Domain\\TaskManager.Domain.csproj",
+  "projectFilePath": "/home/han/TaskManager/TaskManager/TaskManager.Domain/TaskManager.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
